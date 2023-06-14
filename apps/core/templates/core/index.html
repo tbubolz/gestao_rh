@@ -8,6 +8,8 @@
         </div>
         <div class="col">
           Olá {{ user.employees.name }}
+
+          <a href="{% url 'list_employees' %}">Manage Employees</a>
         </div>
         <div class="col">
           <a href="{% url 'logout' %}">Logout</a>
